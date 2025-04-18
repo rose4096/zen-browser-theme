@@ -17,3 +17,7 @@ toolbarbutton {
 toolbarspring {
 	background: var(--zen-navigator-toolbox-background) !important;
 }
+
+.tab-background {
+	background: transparent !important;
+}
