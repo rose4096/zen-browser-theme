@@ -1,0 +1,18 @@
+#browser {
+	--zen-navigator-toolbox-background: var(
+		--lwt-header-image,
+		var(--lwt-additional-images)
+	)
+	no-repeat var(--lwt-background-tiling) var(--lwt-background-alignment)
+	var(--lwt-accent-color);
+
+	--zen-main-browser-background: var(--zen-navigator-toolbox-background); !important;
+}
+
+toolbarbutton {
+	background: var(--zen-navigator-toolbox-background) !important;
+}
+
+toolbarspring {
+	background: var(--zen-navigator-toolbox-background) !important;
+}
