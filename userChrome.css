@@ -7,6 +7,7 @@
 	var(--lwt-accent-color);
 
 	--zen-main-browser-background: var(--zen-navigator-toolbox-background); !important;
+	--tab-selected-bgcolor: transparent !important;
 }
 
 toolbarbutton {
